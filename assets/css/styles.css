@@ -14,6 +14,9 @@ ul {
 .br-15 {
   border-radius: 15px !important;
 }
+.br-50 {
+  border-radius: 50% !important;
+}
 .font-small {
   font-size: small;
 }
@@ -27,46 +30,18 @@ ul {
   font-size: 1rem;
   text-transform: uppercase;
 }
-.btn-login {
+.btn-neu {
   padding: 0.5rem 1.25rem;
-  font-size: 1.25rem;
   border-radius: 10px;
   background: #e6e7ee;
   box-shadow: 7px 7px 14px #b8b9be, -7px -7px 14px #ffffff;
 }
-.btn-login:hover {
+.btn-neu:hover {
   border-radius: 10px;
   background: #e6e7ee;
   box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
-  color: #ef8002;
+  /* color: #ef8002; */
 }
-.card > img {
-  height: 18rem;
-  width: auto;
-}
-#landing {
-  position: relative;
-  width: 100vw;
-  height: 50vh;
-}
-#heroSearch-container {
-  position: absolute;
-  top: 20%;
-  right: 5%;
-  height: 60%;
-  width: 45%;
-  padding-top: 2rem;
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  /* border-radius: 15px; */
-  border-radius: 18px;
-  background: #e6e7ee;
-  box-shadow: 13px 13px 26px #a6a6ab, -13px -13px 26px #ffffff;
-}
-#heroSearch {
-  height: 100%;
-  width: 100%;
-}
-
 #starsboard-option {
   display: none;
   position: absolute;
@@ -103,7 +78,17 @@ li:hover {
 }
 
 /* New work */
-
+.card {
+  background-color: #e6e7ee !important;
+}
+.card > img {
+  margin: 1rem auto;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
+}
 #hero {
   position: relative;
 }
@@ -121,19 +106,22 @@ li:hover {
   top: 0;
   right: 0;
   width: 30%;
-  border-radius: 15px;
+  /* border-radius: 15px;
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff,
-    inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff;
+    inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff; */
 }
 #topper-card {
   border-radius: 15px;
-  width: 80%;
-  height: 60%;
+  width: 90%;
   margin: auto;
   border-radius: 15px;
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+}
+.card-body {
+  background-color: #e6e7ee !important;
+  color: #5b5c5d;
 }
 #hero-search-input {
   border-radius: 15px;
@@ -163,6 +151,9 @@ li:hover {
   color: #ffffff;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
+}
+#instructors {
+  z-index: 5;
 }
 
 /* owl */

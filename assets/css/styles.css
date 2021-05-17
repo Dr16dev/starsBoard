@@ -1,0 +1,163 @@
+body {
+  color: #5b5c5d;
+  background-color: #e6e7ee;
+}
+ul {
+  padding-inline-start: 0px !important;
+}
+.ylo {
+  color: #ef8002;
+}
+.br-15 {
+  border-radius: 15px !important;
+}
+.font-small {
+  font-size: small;
+}
+.educator-option-heading {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.educator-option-sub-heading {
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.btn-login {
+  padding: 0.5rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background: #e6e7ee;
+  box-shadow: 7px 7px 14px #b8b9be, -7px -7px 14px #ffffff;
+}
+.btn-login:hover {
+  border-radius: 10px;
+  background: #e6e7ee;
+  box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
+  color: #ef8002;
+}
+.card > img {
+  height: 18rem;
+  width: auto;
+}
+#landing {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+}
+#heroSearch-container {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  height: 60%;
+  width: 45%;
+  padding-top: 2rem;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* border-radius: 15px; */
+  border-radius: 18px;
+  background: #e6e7ee;
+  box-shadow: 13px 13px 26px #a6a6ab, -13px -13px 26px #ffffff;
+}
+#heroSearch {
+  height: 100%;
+  width: 100%;
+}
+
+#starsboard-option {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  line-height: 2em;
+  border-radius: 13px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #a3a4a9, -9px -9px 18px #ffffff;
+}
+#starsboard-btn:hover #starsboard-option {
+  display: block;
+}
+#educator-option {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  left: 5%;
+  width: 90%;
+  line-height: 2em;
+  border-radius: 13px;
+  background: #e6e7ee;
+  box-shadow: 8px 8px 16px #b1b2b7, -8px -8px 16px #ffffff;
+}
+#educator-btn:hover #educator-option {
+  display: block;
+}
+li {
+  padding: 0.25rem 0.5rem;
+}
+li:hover {
+  border-radius: 8px;
+  background: #e6e7ee;
+  box-shadow: inset 5px 5px 1px #d8d9e0, inset -5px -5px 1px #f4f5fc;
+}
+
+/* New work */
+#hero {
+  position: relative;
+}
+#hero-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70vh;
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+}
+#hero-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 70vh;
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff,
+    inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff;
+}
+#ques {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25rem;
+  color: #e6e7ee;
+  text-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+}
+#hero-search-input {
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  width: 75%;
+}
+#btn-search {
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+}
+#btn-search:hover {
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: inset 9px 9px 18px #c1c2c8, inset -9px -9px 18px #ffffff;
+}
+.ribbon {
+  background-color: #ef8002;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+}

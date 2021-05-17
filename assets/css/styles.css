@@ -8,6 +8,9 @@ ul {
 .ylo {
   color: #ef8002;
 }
+.pnk {
+  color: #ff5252;
+}
 .br-15 {
   border-radius: 15px !important;
 }
@@ -100,6 +103,8 @@ li:hover {
 }
 
 /* New work */
+
+
 #hero {
   position: relative;
 }
@@ -108,7 +113,6 @@ li:hover {
   top: 0;
   left: 0;
   width: 70%;
-  height: 70vh;
   border-radius: 15px;
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
@@ -142,6 +146,9 @@ li:hover {
   padding: 1rem 2rem;
   width: 75%;
 }
+/* #hero-search-input:hover {
+  box-shadow: inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff;
+} */
 #btn-search {
   border-radius: 15px;
   background: #e6e7ee;
@@ -151,13 +158,11 @@ li:hover {
   padding: 1rem 2rem;
 }
 #btn-search:hover {
-  border-radius: 15px;
-  background: #e6e7ee;
   box-shadow: inset 9px 9px 18px #c1c2c8, inset -9px -9px 18px #ffffff;
 }
 .ribbon {
   background-color: #ef8002;
   color: #ffffff;
   font-size: 1.5rem;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
 }

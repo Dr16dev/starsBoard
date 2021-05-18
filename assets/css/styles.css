@@ -209,6 +209,7 @@ li:hover {
   margin: auto;
   height: 40vh;
   border-radius: 16px;
+  /* background: #e6e7ee; */
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
   box-shadow: 9px 9px 18px #a1a2a7, -9px -9px 18px #ffffff;
 }
@@ -225,7 +226,7 @@ li:hover {
 footer {
   position: relative;
   width: 100%;
-  margin-top: 21vh;
+  margin-top: 18vh;
   padding-top: 30vh;
   border-radius: 16px;
   background: #e6e7ee;

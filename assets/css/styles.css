@@ -5,6 +5,13 @@ body {
 ul {
   padding-inline-start: 0px !important;
 }
+a {
+  text-decoration: none;
+  color: #5b5c5d;
+}
+a:hover {
+  color: #5b5c5d;
+}
 .ylo {
   color: #ef8002;
 }
@@ -194,6 +201,48 @@ li:hover {
   width: 60px;
   border-radius: 50%;
 }
+#become-educator {
+  position: absolute;
+  top: -20vh;
+  left: 10%;
+  width: 80%;
+  margin: auto;
+  height: 40vh;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+  box-shadow: 9px 9px 18px #a1a2a7, -9px -9px 18px #ffffff;
+}
+.btn-edu {
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: 2px solid #ef8002;
+  color: #ef8002;
+}
+.btn-edu:hover {
+  background-color: #ef8002;
+  color: #ffffff;
+}
+footer {
+  position: relative;
+  width: 100%;
+  margin-top: 21vh;
+  padding-top: 30vh;
+  border-radius: 16px;
+  background: #e6e7ee;
+  box-shadow: 10px 10px 20px #adadb3, -10px -10px 20px #ffffff;
+}
+#exampleInputEmail3 {
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+/* **************************************************************************** */
+/* **************************************************************************** */
+/* **************************************************************************** */
 
 /* owl */
 .owl-carousel.owl-theme .owl-nav,

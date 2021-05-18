@@ -56,6 +56,38 @@ a:hover {
   box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
   /* color: #ef8002; */
 }
+.btn-rising {
+  /* background-color: #ef8002 !important; */
+  color: #ef8002;
+  border: 1px solid #ef8002;
+  padding: 0.25rem 1rem;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  background: #e6e7ee;
+  box-shadow: 7px 7px 14px #b8b9be, -7px -7px 14px #ffffff;
+}
+.btn-rising:hover {
+  border-radius: 10px;
+  background: #ef8002;
+  color: #fff;
+  /* box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff; */
+  /* color: #ef8002; */
+}
+.btn-rising-neu {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 10px;
+  background: #e6e7ee;
+  box-shadow: 7px 7px 14px #b8b9be, -7px -7px 14px #ffffff;
+}
+.btn-rising-neu:hover {
+  border-radius: 10px;
+  background: #e6e7ee;
+  box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
+}
+.card-title {
+  font-size: 18px;
+}
 #starsboard-option {
   display: none;
   position: absolute;
@@ -95,18 +127,9 @@ li:hover {
 .card {
   background-color: #e6e7ee !important;
 }
-.carousel-item > .card > img {
-  margin: 1rem auto;
-  height: 14rem;
-  width: 14rem;
-  border-radius: 50%;
-  background: #e6e7ee;
-  box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
-}
-#hero-search {
-  border-radius: 15px;
-  background: #e6e7ee;
-  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+.card > img {
+  height: 12rem;
+  width: 12rem;
 }
 #topper-card {
   border-radius: 15px;
@@ -119,6 +142,12 @@ li:hover {
 .card-body {
   background-color: #e6e7ee !important;
   color: #5b5c5d;
+}
+#hero {
+  border-radius: 25px;
+  background-image: url("../imgs/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #hero-search-input {
   border-radius: 15px;
@@ -150,24 +179,14 @@ li:hover {
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
 }
-/* #navbarTogglerDemo02 > ul {
-  border-radius: 15px;
-  background: #e6e7ee;
-  box-shadow: 10px 10px 20px #afb0b5, -10px -10px 20px #ffffff;
-} */
-#instructors {
-  border-radius: 15px;
-  background: #e6e7ee;
-  box-shadow: inset 11px 11px 22px #adadb3, inset -11px -11px 22px #ffffff;
-}
-.card img {
+/* .card img {
   margin: 1rem auto;
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
-}
+} */
 .professional-courses {
   padding: 1rem 3rem;
   border-radius: 50%;
@@ -182,12 +201,7 @@ li:hover {
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
-#testimonies {
-  width: 100%;
-  border-radius: 16px;
-  background: #e6e7ee;
-  box-shadow: 8px 8px 16px #adadb3, -8px -8px 16px #ffffff;
-}
+
 .testimonial-card {
   width: 90%;
   margin: auto;
@@ -202,11 +216,10 @@ li:hover {
 }
 #become-educator {
   position: absolute;
-  top: -20vh;
+  top: -25%;
   left: 10%;
   width: 80%;
   margin: auto;
-  height: 40vh;
   border-radius: 16px;
   /* background: #e6e7ee; */
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
@@ -225,8 +238,8 @@ li:hover {
 footer {
   position: relative;
   width: 100%;
-  margin-top: 18vh;
-  padding-top: 30vh;
+  margin-top: 14%;
+  padding-top: 22%;
   border-radius: 16px;
   background: #e6e7ee;
   box-shadow: 10px 10px 20px #adadb3, -10px -10px 20px #ffffff;

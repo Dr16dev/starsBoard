@@ -50,438 +50,704 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <div id="app" class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-          <img
-            width="100px"
-            height="57px"
-            src="./assets/imgs/Final logo for Stars Board/STARS_LOGO_BLACK.svg"
-            alt=""
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item" id="starsboard-btn">
-              <a class="nav-link active" aria-current="page" href="#"
-                >STARS BOARD</a
-              >
-              <div id="starsboard-option">
-                <ul>
-                  <li>About Us</li>
-                  <li>Contact Us</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms and Conditions</li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item" id="educator-btn">
-              <a class="nav-link" href="#">EDUCATOR</a>
-              <div id="educator-option" class="px-4 py-2 container-fluid">
-                <div class="row">
-                  <div class="col">
-                    <div class="row">
-                      <span class="educator-option-heading ylo">Academics</span>
-                    </div>
+    <div id="app" class="container-fluid">
+      <div id="banner">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img
+              width="100px"
+              height="57px"
+              src="./assets/imgs/Final logo for Stars Board/STARS_LOGO_BLACK.svg"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" id="starsboard-btn">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >STARS BOARD</a
+                >
+                <div id="starsboard-option">
+                  <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item" id="educator-btn">
+                <a class="nav-link" href="#">EDUCATOR</a>
+                <div id="educator-option" class="px-4 py-2 container-fluid">
+                  <div class="row">
+                    <div class="col">
+                      <div class="row">
+                        <span class="educator-option-heading ylo"
+                          >Academics</span
+                        >
+                      </div>
 
-                    <div class="row font-small">
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Class</li>
-                          <li>V - X</li>
-                          <li>XI - XII</li>
-                          <li>Undergraduate</li>
-                          <li>Postgraduate</li>
-                        </ul>
-                      </div>
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Subject</li>
-                          <li>Maths</li>
-                          <li>Chemistry</li>
-                          <li>Physics</li>
-                          <li>Biology</li>
-                          <li>Medical</li>
-                          <li>Engineering</li>
-                          <li>Commerce</li>
-                          <li>Management</li>
-                          <li>Law</li>
-                        </ul>
-                      </div>
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Board</li>
-                          <li>Andhra Pradesh</li>
-                          <li>CBSE</li>
-                          <li>Goa</li>
-                          <li>Gujarat</li>
-                          <li>ICSE</li>
-                          <li>Karnataka</li>
-                          <li>Kerala</li>
-                          <li>Madhya Pradesh</li>
-                          <li>Maharashtra</li>
-                          <li>NIOS</li>
-                          <li>Punjab</li>
-                          <li>Rajasthan</li>
-                          <li>Tamil Nadu</li>
-                          <li>Telangana</li>
-                          <li>West Bengal</li>
-                        </ul>
-                      </div>
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Exam</li>
-                          <li>ATPL</li>
-                          <li>Banks</li>
-                          <li>Civil Services</li>
-                          <li>CPL</li>
-                          <li>CAT</li>
-                          <li>CLAT</li>
-                          <li>Defense</li>
-                          <li>GMAT</li>
-                          <li>ICAI Exam</li>
-                          <li>IELTS</li>
-                          <li>JEE (Main)</li>
-                          <li>MPSC</li>
-                          <li>NEET</li>
-                          <li>Railways</li>
-                          <li>UPSC</li>
-                          <li>TET</li>
-                          <li>Judiciary-PCS(J)</li>
-                          <li>State PSC</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <!-- <div class="row font-small">
-                        <div class="row">
-                          <div class="col"><span>Exam</span></div>
-                        </div>
+                      <div class="row font-small">
                         <div class="col">
                           <ul>
-                            <li>Airline Transport Pilot License (ATPL)</li>
-                            <li>Banks</li>
-                            <li>Civil Services</li>
-                            <li>Commercial Pilot License (CPL)</li>
+                            <li class="educator-option-sub-heading">Class</li>
+                            <li>V - X</li>
+                            <li>XI - XII</li>
+                            <li>Undergraduate</li>
+                            <li>Postgraduate</li>
                           </ul>
                         </div>
                         <div class="col">
                           <ul>
+                            <li class="educator-option-sub-heading">Subject</li>
+                            <li>Maths</li>
+                            <li>Chemistry</li>
+                            <li>Physics</li>
+                            <li>Biology</li>
+                            <li>Medical</li>
+                            <li>Engineering</li>
+                            <li>Commerce</li>
+                            <li>Management</li>
+                            <li>Law</li>
+                          </ul>
+                        </div>
+                        <div class="col">
+                          <ul>
+                            <li class="educator-option-sub-heading">Board</li>
+                            <li>Andhra Pradesh</li>
+                            <li>CBSE</li>
+                            <li>Goa</li>
+                            <li>Gujarat</li>
+                            <li>ICSE</li>
+                            <li>Karnataka</li>
+                            <li>Kerala</li>
+                            <li>Madhya Pradesh</li>
+                            <li>Maharashtra</li>
+                            <li>NIOS</li>
+                            <li>Punjab</li>
+                            <li>Rajasthan</li>
+                            <li>Tamil Nadu</li>
+                            <li>Telangana</li>
+                            <li>West Bengal</li>
+                          </ul>
+                        </div>
+                        <div class="col">
+                          <ul>
+                            <li class="educator-option-sub-heading">Exam</li>
+                            <li>ATPL</li>
+                            <li>Banks</li>
+                            <li>Civil Services</li>
+                            <li>CPL</li>
                             <li>CAT</li>
                             <li>CLAT</li>
                             <li>Defense</li>
                             <li>GMAT</li>
                             <li>ICAI Exam</li>
-                          </ul>
-                        </div>
-                        <div class="col">
-                          <ul>
                             <li>IELTS</li>
                             <li>JEE (Main)</li>
                             <li>MPSC</li>
                             <li>NEET</li>
                             <li>Railways</li>
+                            <li>UPSC</li>
+                            <li>TET</li>
+                            <li>Judiciary-PCS(J)</li>
+                            <li>State PSC</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- <div class="row font-small">
+                          <div class="row">
+                            <div class="col"><span>Exam</span></div>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li>Airline Transport Pilot License (ATPL)</li>
+                              <li>Banks</li>
+                              <li>Civil Services</li>
+                              <li>Commercial Pilot License (CPL)</li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li>CAT</li>
+                              <li>CLAT</li>
+                              <li>Defense</li>
+                              <li>GMAT</li>
+                              <li>ICAI Exam</li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li>IELTS</li>
+                              <li>JEE (Main)</li>
+                              <li>MPSC</li>
+                              <li>NEET</li>
+                              <li>Railways</li>
+                            </ul>
+                          </div>
+                          <div class="col">
+                            <ul>
+                              <li>UPSC</li>
+                              <li>Teacher Eligibility Test (TET)</li>
+                              <li>Judiciary - PCS (J)</li>
+                              <li>State PSC</li>
+                            </ul>
+                          </div>
+                        </div> -->
+                    </div>
+
+                    <div class="col">
+                      <div class="row">
+                        <span class="educator-option-heading ylo"
+                          >Professional</span
+                        >
+                      </div>
+                      <div class="row font-small">
+                        <div class="col">
+                          <ul>
+                            <li class="educator-option-sub-heading">Course</li>
+                            <li>3D + Animation</li>
+                            <li>Graphic Desgning</li>
+                            <li>Logo Design</li>
+                            <li>Digital Marketing</li>
+                            <li>Kids Coding</li>
+                            <li>Accounting</li>
+                            <li>SAP</li>
+                            <li>Microsoct Excel</li>
+                            <li>Tableau</li>
+                            <li>SQL</li>
+                            <li>Mobile App Development</li>
+                            <li>Website Development</li>
+                            <li>Game Development</li>
+                            <li>Ethical Hacking</li>
+                            <li>UX / UI</li>
+                            <li>PMP</li>
+                            <li>Lean Six Sigma</li>
+                            <li>ITIL</li>
+                            <li>Indian Language</li>
+                            <li>Foreign Languages</li>
+                            <li>Soft Skill and image building</li>
                           </ul>
                         </div>
                         <div class="col">
                           <ul>
-                            <li>UPSC</li>
-                            <li>Teacher Eligibility Test (TET)</li>
-                            <li>Judiciary - PCS (J)</li>
-                            <li>State PSC</li>
+                            <li class="educator-option-sub-heading">Art</li>
+                            <li>Acting</li>
+                            <li>crafting</li>
+                            <li>drawing</li>
+                            <li>Embroidery</li>
+                            <li>Meditation</li>
+                            <li>Music</li>
+                            <li>nutrition</li>
+                            <li>Painting</li>
+                            <li>Photography</li>
+                            <li>Videography</li>
+                            <li>Dancing</li>
                           </ul>
                         </div>
-                      </div> -->
-                  </div>
-
-                  <div class="col">
-                    <div class="row">
-                      <span class="educator-option-heading ylo"
-                        >Professional</span
-                      >
-                    </div>
-                    <div class="row font-small">
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Course</li>
-                          <li>3D + Animation</li>
-                          <li>Graphic Desgning</li>
-                          <li>Logo Design</li>
-                          <li>Digital Marketing</li>
-                          <li>Kids Coding</li>
-                          <li>Accounting</li>
-                          <li>SAP</li>
-                          <li>Microsoct Excel</li>
-                          <li>Tableau</li>
-                          <li>SQL</li>
-                          <li>Mobile App Development</li>
-                          <li>Website Development</li>
-                          <li>Game Development</li>
-                          <li>Ethical Hacking</li>
-                          <li>UX / UI</li>
-                          <li>PMP</li>
-                          <li>Lean Six Sigma</li>
-                          <li>ITIL</li>
-                          <li>Indian Language</li>
-                          <li>Foreign Languages</li>
-                          <li>Soft Skill and image building</li>
-                        </ul>
-                      </div>
-                      <div class="col">
-                        <ul>
-                          <li class="educator-option-sub-heading">Art</li>
-                          <li>Acting</li>
-                          <li>crafting</li>
-                          <li>drawing</li>
-                          <li>Embroidery</li>
-                          <li>Meditation</li>
-                          <li>Music</li>
-                          <li>nutrition</li>
-                          <li>Painting</li>
-                          <li>Photography</li>
-                          <li>Videography</li>
-                          <li>Dancing</li>
-                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">COUNSELLING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TEACHER's BLOG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">BECOME EDUCATOR</a>
-            </li>
-          </ul>
-          <button class="btn btn-neu" type="submit">
-            <i class="bi bi-person"></i> Login
-          </button>
-        </div>
-      </nav>
-
-      <div id="hero" class="mt-3 row">
-        <div id="hero-search" class="col-md-8">
-          <p class="display-1 mx-3 mt-3">We take learning to new heights.</p>
-          <p class="display-5 mx-3 mt-5">
-            Search our <span class="ylo">1,360,462</span> Tutors
-          </p>
-          <form action="" class="mx-3 mt-4">
-            <input
-              type="text"
-              name=""
-              id="hero-search-input"
-              placeholder="Find what you want"
-            />
-            <button id="btn-search" class="mx-3">
-              <i class="bi bi-search"></i>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COUNSELLING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TEACHER's BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BECOME EDUCATOR</a>
+              </li>
+            </ul>
+            <button class="btn btn-neu" type="submit">
+              <i class="bi bi-person"></i> Login
             </button>
-          </form>
-          <p class="mx-4 mt-3">
-            <i class="bi bi-person"></i> 2.51M Learners
-            <span class="m-5"> <i class="bi bi-book"></i> 270 Courses</span>
-            <i class="bi bi-bank"></i> 116 Institutions
-          </p>
-          <div class="text-center mx-2">
-            <p class="ribbon">You can crack any EXAM</p>
-            <p>Find best Tutor by course</p>
           </div>
-          <div class="owl-carousel owl-theme mb-3">
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card iconSlider mx-auto">
-                <div class="iconContainer">
-                  <div class="bevel">
-                    <i class="fa fa-2x fa-home"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </nav>
 
-        <div id="hero-content" class="pb-3 col-md-4 mt-3">
-          <p class="display-4 text-center">Our Stars</p>
-          <div id="topper-card">
-            <div
-              id="carouselExampleSlidesOnly"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card" style="width: 100%">
-                    <img
-                      src="./assets/imgs/cards/1620123888.jpg"
-                      class="card-img-top img-fluid br-50"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-neu">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card" style="width: 100%">
-                    <img
-                      src="./assets/imgs/cards/1620123437.jpg"
-                      class="card-img-top img-fluid br-50"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-neu">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card" style="width: 100%">
-                    <img
-                      src="./assets/imgs/cards/1620123001.jpg"
-                      class="card-img-top img-fluid br-50"
-                      alt="..."
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-neu">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div id="hero" class="mt-3 row">
+          <div class="col"></div>
+          <div id="hero-search" class="col-md-6 mx-5">
+            <p class="display-3 mx-3 mt-3">We take learning to new heights.</p>
+            <p class="display-5 mx-3 mt-3">
+              Search our <span class="ylo">1,360,462</span> Tutors
+            </p>
+            <form action="" class="mx-3 mt-3">
+              <input
+                type="text"
+                name=""
+                id="hero-search-input"
+                placeholder="Find what you want"
+              />
+              <button id="btn-search" class="mx-3">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <p class="mx-4 mt-3 ylo">
+              <i class="bi bi-person"></i> 2.51M Learners
+              <span class="m-5"> <i class="bi bi-book"></i> 270 Courses</span>
+              <i class="bi bi-bank"></i> 116 Institutions
+            </p>
           </div>
         </div>
       </div>
 
-      <div id="instructors" class="row mt-5 pb-5">
+      <div id="rising-stars" class="row mt-5">
+        <p class="display-4 text-center"><b>Rising Stars of Stars Board</b></p>
+        <div class="owl-carousel owl-theme my-3 pb-3">
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 1</h5>
+                <!-- <p class="card-text font-small"></p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/12T011820409.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 2</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/2018_03_05_teina-2018.jpg_edited_edited.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 3</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/355-3555383_circle-profile-picture-clipart.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 4</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/3614808_cammy-circle-picture-profile-girl-png-transparent-png.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 5</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/473-4739617_transparent-face-profile-png-round-profile-picture-png.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 6</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/98-982883_wings-india-student-ielts-png-transparent-png.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 7</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/imageedit_2_6717409029.gif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 8</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/images (1).jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 9</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/images.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 10</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/Karen-Ramos-CIRCLE-e1577801072159.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 11</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-3">
+              <img
+                src="./assets/imgs/rising-stars/Tai-circle.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title 12</h5>
+                <!-- <p class="card-text font-small">Some quick example text</p> -->
+                <div class="my-3">
+                  <button class="btn btn-rising-neu mx-1">X</button>
+                  <button class="btn btn-rising-neu mx-1">XI</button>
+                  <button class="btn btn-rising-neu mx-1">XII</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="ylo">₹1500</div>
+                  <div>
+                    <a href="#" class="btn btn-rising">Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="item">
+            <div class="card iconSlider mx-auto">
+              <div class="iconContainer">
+                <div class="bevel">
+                  <i class="fa fa-2x fa-home"></i>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <p class="ribbon py-2">You can crack any EXAM</p>
+        <p class="mt-5">Find best Tutor by course</p>
+      </div>
+      <div class="owl-carousel owl-theme mb-3">
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Banks</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Civil Services</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Defense</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Railways</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (4).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">State PSC</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Commercial Pilot License (CPL)</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">Airline Transport Pilot License (ATPL)</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">UPSC</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">CAT</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">CLAT</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (2).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">NEET</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">JEE (Mains)</p>
+        </div>
+        <div class="item">
+          <div class="card iconSlider mx-auto">
+            <div class="iconContainer">
+              <div class="bevel">
+                <img src="./assets/imgs/exam-carousel/images (4).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-3">IELETS</p>
+        </div>
+      </div>
+
+      <div id="instructors" class="container mt-5 pb-5">
         <p class="display-3 text-center mt-3">Most popular Instructors in</p>
-        <div class="d-flex justify-content-evenly my-5">
+        <div class="d-flex justify-content-between my-5">
           <button class="btn btn-neu">Kids coding</button>
           <button class="btn btn-neu">Class X</button>
           <button class="btn btn-neu">Class XII</button>
@@ -491,7 +757,7 @@
           <button class="btn btn-neu">UPSC</button>
           <button class="btn btn-neu">App Development</button>
         </div>
-        <div class="wrapper d-flex justify-content-evenly">
+        <div class="wrapper d-flex justify-content-between">
           <div class="card" style="width: 20%">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
@@ -665,9 +931,9 @@
       </div>
 
       <footer class="pb-3 px-3">
-        <div id="become-educator" class="my-5 p-3">
+        <div id="become-educator" class="my-5 p-3 d-none d-md-block">
           <div class="row">
-            <div id="become-educator-left" class="col-7">
+            <div id="become-educator-left" class="col-md-7">
               <p class="display-5">
                 Become an <span class="ylo">Educator</span> today
               </p>
@@ -679,7 +945,7 @@
               </p>
               <button class="btn btn-edu">START TEACHING TODAY</button>
             </div>
-            <div id="become-educator-right" class="col-4"></div>
+            <div id="become-educator-right" class="col-md-4"></div>
           </div>
         </div>
         <!-- Actual Footer -->
@@ -914,10 +1180,10 @@
               items: 2,
             },
             600: {
-              items: 3,
+              items: 4,
             },
             1000: {
-              items: 5,
+              items: 6,
             },
           },
         });

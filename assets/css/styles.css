@@ -133,6 +133,7 @@ li:hover {
   box-shadow: inset 9px 9px 18px #c1c2c8, inset -9px -9px 18px #ffffff;
 }
 .ribbon {
+  border-radius: 5px;
   background-color: #ef8002;
   color: #ffffff;
   font-size: 1.5rem;
@@ -159,6 +160,9 @@ li:hover {
 .professional-courses {
   padding: 1rem 3rem;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
@@ -167,12 +171,22 @@ li:hover {
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
+.professional-courses div {
+}
 #testimonies {
   width: 100%;
   height: 60vh;
   border-radius: 16px;
   background: #e6e7ee;
   box-shadow: 8px 8px 16px #adadb3, -8px -8px 16px #ffffff;
+}
+.testimonial-card {
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+  box-shadow: 9px 9px 18px #a8a9ae, -9px -9px 18px #ffffff;
 }
 
 /* owl */

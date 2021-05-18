@@ -20,6 +20,9 @@ ul {
 .font-small {
   font-size: small;
 }
+.font-large {
+  font-size: large;
+}
 .educator-option-heading {
   margin-bottom: 1rem;
   font-weight: 400;
@@ -81,7 +84,7 @@ li:hover {
 .card {
   background-color: #e6e7ee !important;
 }
-.card > img {
+.carousel-item > .card > img {
   margin: 1rem auto;
   height: 14rem;
   width: 14rem;
@@ -135,10 +138,34 @@ li:hover {
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
 }
-#navbarTogglerDemo02 > ul {
+/* #navbarTogglerDemo02 > ul {
   border-radius: 15px;
   background: #e6e7ee;
   box-shadow: 10px 10px 20px #afb0b5, -10px -10px 20px #ffffff;
+} */
+#instructors {
+  border-radius: 15px;
+  background: #e6e7ee;
+  box-shadow: inset 11px 11px 22px #adadb3, inset -11px -11px 22px #ffffff;
+}
+.card img {
+  margin: 1rem auto;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
+}
+.professional-courses {
+  padding: 2rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
+}
+.professional-courses:hover {
+  border-radius: 50%;
+  background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
 
 /* owl */

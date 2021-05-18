@@ -89,27 +89,10 @@ li:hover {
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
 }
-#hero {
-  position: relative;
-}
 #hero-search {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 65%;
   border-radius: 15px;
   background: #e6e7ee;
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
-}
-#hero-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 30%;
-  /* border-radius: 15px;
-  background: #e6e7ee;
-  box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff,
-    inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff; */
 }
 #topper-card {
   border-radius: 15px;

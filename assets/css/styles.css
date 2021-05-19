@@ -61,7 +61,6 @@ a:hover {
   border-radius: 10px;
   background: #e6e7ee;
   box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
-  /* color: #ef8002; */
 }
 .btn-login {
   padding: 0.5rem 1.25rem;
@@ -76,10 +75,8 @@ a:hover {
   color: #ef8002;
   border: 1px solid #ef8002;
   box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
-  /* color: #ef8002; */
 }
 .btn-rising {
-  /* background-color: #ef8002 !important; */
   color: #ef8002;
   border: 1px solid #ef8002;
   padding: 0.25rem 1rem;
@@ -180,9 +177,6 @@ li:hover {
   padding: 1rem 2rem;
   width: 75%;
 }
-/* #hero-search-input:hover {
-  box-shadow: inset 9px 9px 18px #adadb3, inset -9px -9px 18px #ffffff;
-} */
 #btn-search {
   border-radius: 15px;
   background: #e6e7ee;
@@ -201,16 +195,9 @@ li:hover {
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
 }
-/* .card img {
-  margin: 1rem auto;
-  height: 12rem;
-  width: 12rem;
-  border-radius: 50%;
-  background: #e6e7ee;
-  box-shadow: 9px 9px 18px #919296, -9px -9px 18px #ffffff;
-} */
 .professional-courses {
-  padding: 1rem 3rem;
+  width: 150px;
+  height: 150px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -223,9 +210,6 @@ li:hover {
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
-/* .br-red {
-  border: 1px solid red;
-} */
 #testimony-carousel {
   position: relative;
 }

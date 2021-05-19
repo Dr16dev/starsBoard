@@ -208,7 +208,31 @@ li:hover {
   background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
   box-shadow: 9px 9px 18px #adadb3, -9px -9px 18px #ffffff;
 }
-
+/* .br-red {
+  border: 1px solid red;
+} */
+#testimony-carousel {
+  position: relative;
+}
+.testimony-carousel-img {
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #adadb3, -10px -10px 20px #ffffff;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  height: 80%;
+}
+.testimony-carousel-disc {
+  position: absolute;
+  right: 55%;
+  top: 20%;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+  box-shadow: 10px 10px 20px #adadb3, -10px -10px 20px #ffffff;
+  height: 60%;
+  width: 40%;
+  z-index: 1;
+}
 .testimonial-card {
   width: 90%;
   margin: auto;
@@ -235,7 +259,7 @@ li:hover {
 .btn-edu {
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  border: 2px solid #ef8002;
+  border: 1px solid #ef8002;
   color: #ef8002;
 }
 .btn-edu:hover {
@@ -271,7 +295,7 @@ footer {
   border-radius: 15px;
   background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
   box-shadow: 8px 8px 16px #adadb3, -8px -8px 16px #ffffff;
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
 .stats-card:hover {
   transform: translateY(-1vh);

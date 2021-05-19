@@ -63,6 +63,21 @@ a:hover {
   box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
   /* color: #ef8002; */
 }
+.btn-login {
+  padding: 0.5rem 1.25rem;
+  border-radius: 10px;
+  background: #ef8002;
+  color: #ffffff;
+  box-shadow: 7px 7px 14px #b8b9be, -7px -7px 14px #ffffff;
+}
+.btn-login:hover {
+  border-radius: 10px;
+  background: #e6e7ee;
+  color: #ef8002;
+  border: 1px solid #ef8002;
+  box-shadow: inset 10px 10px 20px #cdced4, inset -10px -10px 20px #ffffff;
+  /* color: #ef8002; */
+}
 .btn-rising {
   /* background-color: #ef8002 !important; */
   color: #ef8002;

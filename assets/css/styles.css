@@ -250,7 +250,7 @@ li:hover {
 }
 #become-educator {
   position: absolute;
-  top: -35%;
+  top: -25%;
   left: 10%;
   width: 80%;
   margin: auto;
@@ -272,8 +272,8 @@ li:hover {
 footer {
   position: relative;
   width: 100%;
-  margin-top: 14%;
-  padding-top: 22%;
+  margin-top: 10%;
+  padding-top: 20%;
   border-radius: 16px;
   background: #e6e7ee;
   box-shadow: 10px 10px 20px #adadb3, -10px -10px 20px #ffffff;

@@ -171,8 +171,8 @@ li:hover {
 #hero {
   background-image: url("../imgs/banners/banner_crop.jpg");
   background-repeat: no-repeat;
-  background-position:bottom ;
-  background-size: 100%;
+  background-position:right ;
+  background-size: cover;
 }
 /* #banner-img {
   height: 100%;

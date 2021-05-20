@@ -7,7 +7,7 @@ var carousel = new bootstrap.Carousel(carouselHeader, {
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 40,
+    margin: 10,
     nav: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: false,
@@ -20,7 +20,7 @@ $(document).ready(function () {
         items: 4,
       },
       1000: {
-        items: 5,
+        items: 6,
       },
     },
   });

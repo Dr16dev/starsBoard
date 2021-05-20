@@ -171,7 +171,6 @@ li:hover {
   color: #5b5c5d;
 }
 #hero {
-  border-radius: 25px;
   background-image: url("../imgs/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;

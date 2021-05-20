@@ -26,8 +26,10 @@ $(document).ready(function () {
   });
 
   $("#hero-search-bar .btn").click(function () {
-    $("#hero-search-bar .btn").removeClass("active-search");
-    $(this).addClass("active-search");
+    $("#hero-search-bar .btn").removeClass("ylo");
+    $("#hero-search-bar .btn").addClass("br-btm");
+    $(this).addClass("ylo");
+    $(this).removeClass("br-btm");
   });
 });
 var slideIndex = 0;

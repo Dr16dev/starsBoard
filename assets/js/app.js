@@ -27,8 +27,6 @@ $(document).ready(function () {
 
   $("#instructors-btn-carousel").owlCarousel({
     nav: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 2,

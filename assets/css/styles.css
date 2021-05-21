@@ -175,6 +175,12 @@ li:hover {
   background-position: right;
   background-size: cover;
 }
+@media all and (max-width:480px) {
+  #hero {
+    height: fit-content;
+    background-image: none;
+  }
+}
 /* #banner-img {
   height: 100%;
   width: 100%;

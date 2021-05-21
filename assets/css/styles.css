@@ -296,6 +296,14 @@ li:hover {
   background-color: #1b85ce;
   color: #ffffff;
 }
+#professions {
+  height: 80vh;
+  position: relative;
+}
+#professions-carousel {
+  position: absolute;
+  top: 45%;
+}
 .professional-courses {
   width: 150px;
   height: 150px;

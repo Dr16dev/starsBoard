@@ -46,6 +46,26 @@ $(document).ready(function () {
     },
   });
 
+  $("#professions-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 6,
+      },
+    },
+  });
+
   $("#city-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -89,30 +109,30 @@ $("#hero-search-bar .btn").click(function () {
   $(this).addClass("blu");
 });
 
-$('#academics-btn').click(function () {
+$("#academics-btn").click(function () {
   $("#academics-div").removeClass("d-none");
   $("#professional-div").addClass("d-none");
   $("#hobby-div").addClass("d-none");
   $("#counselling-div").addClass("d-none");
-})
+});
 
-$('#professional-btn').click(function () {
+$("#professional-btn").click(function () {
   $("#academics-div").addClass("d-none");
   $("#professional-div").removeClass("d-none");
   $("#hobby-div").addClass("d-none");
   $("#counselling-div").addClass("d-none");
-})
+});
 
-$('#hobby-btn').click(function () {
+$("#hobby-btn").click(function () {
   $("#academics-div").addClass("d-none");
   $("#professional-div").addClass("d-none");
   $("#hobby-div").removeClass("d-none");
   $("#counselling-div").addClass("d-none");
-})
+});
 
-$('#counselling-btn').click(function () {
+$("#counselling-btn").click(function () {
   $("#academics-div").addClass("d-none");
   $("#professional-div").addClass("d-none");
   $("#hobby-div").addClass("d-none");
   $("#counselling-div").removeClass("d-none");
-})
+});

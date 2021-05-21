@@ -46,6 +46,26 @@ $(document).ready(function () {
     },
   });
 
+  $("#city-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 6,
+      },
+    },
+  });
+
   $("#instructors-btn-carousel").owlCarousel({
     margin: 20,
     nav: true,

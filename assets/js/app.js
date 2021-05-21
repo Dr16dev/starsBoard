@@ -10,7 +10,7 @@ $(document).ready(function () {
     loop: true,
     margin: 20,
     nav: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     autoplay: true,
     responsive: {

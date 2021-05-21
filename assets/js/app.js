@@ -25,7 +25,7 @@ $(document).ready(function () {
       },
     },
   });
-  
+
   $("#exams-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -51,7 +51,7 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
-        items: 1,
+        items: 3,
       },
       600: {
         items: 4,
@@ -61,12 +61,12 @@ $(document).ready(function () {
       },
     },
   });
-
-  $("#hero-search-bar .btn").click(function () {
-    $("#hero-search-bar .btn").removeClass("ylo");
-    $("#hero-search-bar .btn").addClass("br-btm");
-    $(this).addClass("ylo");
-    $(this).removeClass("br-btm");
-  });
 });
 var slideIndex = 0;
+
+$("#hero-search-bar .btn").click(function () {
+  $("#hero-search-bar .btn").removeClass("blu");
+  $("#hero-search-bar .btn").addClass("br-btm");
+  $(this).addClass("blu");
+  $(this).removeClass("br-btm");
+});

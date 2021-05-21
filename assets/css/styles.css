@@ -15,7 +15,7 @@ a:hover {
   color: #5b5c5d;
 }
 #hero-search-bar .btn:hover {
-  color: #ef8002;
+  color: #1b85ce;
 }
 .ylo {
   color: #ef8002;
@@ -128,6 +128,8 @@ a:hover {
 }
 #educator-option {
   display: none;
+  height: 50vh;
+  overflow-y: scroll;
   position: absolute;
   z-index: 3;
   left: 5%;
@@ -172,8 +174,9 @@ li:hover {
 #hero {
   height: 70vh;
   background-image: url("../imgs/banners/banner_crop.jpg");
+  background-position-y: bottom;
+  background-position-x: right;
   background-repeat: no-repeat;
-  background-position: right;
   background-size: cover;
 }
 
@@ -187,6 +190,13 @@ li:hover {
   border-radius: 15px;
   background: #f6f6f6;
   box-shadow: 8px 8px 16px #b9b9b9, -8px -8px 16px #ffffff;
+}
+#btn-hero-search {
+  border: 1px solid #65824b;
+}
+#btn-hero-search:hover {
+  background-color: #65824b;
+  color: #ffffff;
 }
 #hero-search-bar {
   width: fit-content;
@@ -204,15 +214,13 @@ li:hover {
   background: linear-gradient(145deg, #dddddd, #ffffff);
   box-shadow: 8px 8px 16px #b9b9b9, -8px -8px 16px #ffffff; */
 }
-#hero-search-input {
-  display: none;
+.hero-search-input {
   border-radius: 15px;
-  background: #efefef;
-  box-shadow: 8px 8px 16px #c6c6c6, -8px -8px 16px #ffffff;
+  background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
+  box-shadow: 5px 5px 10px #adadb3, -5px -5px 10px #ffffff;
   outline: none;
   border: none;
-  padding: 1rem 2rem;
-  width: 75%;
+  padding: 0.5rem 1rem;
 }
 #btn-search {
   display: none;
@@ -232,6 +240,9 @@ li:hover {
   color: #ffffff;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
+}
+#crack-any-exam {
+  background-color: #f6f6f6;
 }
 #ins {
   max-height: 64vh;

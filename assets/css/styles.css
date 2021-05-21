@@ -253,6 +253,18 @@ li:hover {
 #btn-search:hover {
   box-shadow: inset 9px 9px 18px #c1c2c8, inset -9px -9px 18px #ffffff;
 }
+.seperator {
+  position: relative;
+}
+.seperator::before {
+  content: "";
+  width: 0;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  border-left: 1px solid #a1a2a7;
+}
 .ribbon {
   border-radius: 5px;
   background-color: #ef8002;

@@ -191,6 +191,7 @@ li:hover {
   color: #5b5c5d;
 }
 #hero {
+  height: 85vh;
   background-image: url("../imgs/banners/banner_crop.jpg");
   background-position-y: bottom;
   background-position-x: right;
@@ -203,7 +204,7 @@ li:hover {
   width: 100%;
 } */
 #hero-search {
-  height: fit-content;
+  height: 60vh;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   background: #f6f6f6;

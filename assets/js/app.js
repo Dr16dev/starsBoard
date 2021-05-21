@@ -4,10 +4,11 @@ var carousel = new bootstrap.Carousel(carouselHeader, {
   wrap: true,
   touch: true,
 });
+
 $(document).ready(function () {
-  $("#exams-carousel").owlCarousel({
+  $("#stars-carousel").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: false,
@@ -24,9 +25,14 @@ $(document).ready(function () {
       },
     },
   });
-
-  $("#instructors-btn-carousel").owlCarousel({
+  
+  $("#exams-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
     nav: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: false,
+    autoplay: true,
     responsive: {
       0: {
         items: 2,
@@ -36,6 +42,22 @@ $(document).ready(function () {
       },
       1000: {
         items: 7,
+      },
+    },
+  });
+
+  $("#instructors-btn-carousel").owlCarousel({
+    margin: 20,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 8,
       },
     },
   });

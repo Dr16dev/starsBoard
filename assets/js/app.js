@@ -86,7 +86,33 @@ var slideIndex = 0;
 
 $("#hero-search-bar .btn").click(function () {
   $("#hero-search-bar .btn").removeClass("blu");
-  $("#hero-search-bar .btn").addClass("br-btm");
   $(this).addClass("blu");
-  $(this).removeClass("br-btm");
 });
+
+$('#academics-btn').click(function () {
+  $("#academics-div").removeClass("d-none");
+  $("#professional-div").addClass("d-none");
+  $("#hobby-div").addClass("d-none");
+  $("#counselling-div").addClass("d-none");
+})
+
+$('#professional-btn').click(function () {
+  $("#academics-div").addClass("d-none");
+  $("#professional-div").removeClass("d-none");
+  $("#hobby-div").addClass("d-none");
+  $("#counselling-div").addClass("d-none");
+})
+
+$('#hobby-btn').click(function () {
+  $("#academics-div").addClass("d-none");
+  $("#professional-div").addClass("d-none");
+  $("#hobby-div").removeClass("d-none");
+  $("#counselling-div").addClass("d-none");
+})
+
+$('#counselling-btn').click(function () {
+  $("#academics-div").addClass("d-none");
+  $("#professional-div").addClass("d-none");
+  $("#hobby-div").addClass("d-none");
+  $("#counselling-div").removeClass("d-none");
+})

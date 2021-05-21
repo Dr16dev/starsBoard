@@ -290,50 +290,172 @@
             </div>
             <div class="row">
               <div id="hero-search-bar" class="px-0">
-                <div class="btn blu">Academics</div>
-                <div class="btn">Professional</div>
-                <div class="btn">Hobby Course</div>
-                <div class="btn">Counselling</div>
+                <div id="academics-btn" class="btn blu">Academics</div>
+                <div id="professional-btn" class="btn">Professional</div>
+                <div id="hobby-btn" class="btn">Hobby Course</div>
+                <div id="counselling-btn" class="btn">Counselling</div>
               </div>
               <div id="hero-search-form" class="p-3">
-                <form class="row g-3">
-                  <div class="col-md-12">
-                    <input type="radio" name="type-of-exam" id="class" />
-                    <label for="class">Class</label>
-                    <input type="radio" name="type-of-exam" id="board" />
-                    <label for="board">Board</label>
-                    <input type="radio" name="type-of-exam" id="exam" />
-                    <label for="exam">Exam</label>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity" />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="inputLanguage" class="form-label"
-                      >Language</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="inputLanguage"
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="inputFee" class="form-label">Fee</label>
-                    <input type="text" class="form-control" id="inputFee" />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="inputSubject" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="inputSubject" />
-                  </div>
+                <div id="academics-div" class="container">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <input type="radio" name="type-of-exam" id="class" />
+                      <label for="class">Class</label>
+                      <input type="radio" name="type-of-exam" id="board" />
+                      <label for="board">Board</label>
+                      <input type="radio" name="type-of-exam" id="exam" />
+                      <label for="exam">Exam</label>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputLanguage" class="form-label"
+                        >Language</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputLanguage"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputFee" class="form-label">Fee</label>
+                      <input type="text" class="form-control" id="inputFee" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputSubject" class="form-label"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputSubject"
+                      />
+                    </div>
 
-                  <div class="d-grid col-12">
-                    <button type="button" id="btn-hero-search" class="btn grn">
-                      Search
-                    </button>
+                    <div class="d-grid col-12">
+                      <button
+                        type="button"
+                        id="btn-hero-search"
+                        class="btn grn"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div id="professional-div" class="container d-none">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputLanguage" class="form-label"
+                        >Language</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputLanguage"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputFee" class="form-label">Fee</label>
+                      <input type="text" class="form-control" id="inputFee" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputSubject" class="form-label"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputSubject"
+                      />
+                    </div>
+
+                    <div class="d-grid col-12">
+                      <button
+                        type="button"
+                        id="btn-hero-search"
+                        class="btn grn"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div id="hobby-div" class="container d-none">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="hobby-course" class="form-label"
+                        >What do you want to Learn ?</label
+                      >
+                      <select name="hobby-course" id="hobby-course" class="form-control">
+                        <option value="">What do you want to learn ?</option>
+                        <option value="india">lorem</option>
+                        <option value="pakistan">Ipsem</option>
+                        <option value="nepal">is</option>
+                        <option value="bhutan">a mock</option>
+                        <option value="bangladesh">text</option>
+                      </select>
+                    </div>
+                    <div class="d-grid col-12">
+                      <button
+                        type="button"
+                        id="btn-hero-search"
+                        class="btn grn"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </form>
+                  <div class="row mt-3">
+                    <h5>Treanding Courses</h5>
+                    <a href="@" class="blu col-4"> course 1 </a>
+                    <a href="@" class="blu col-4"> course 2 </a>
+                    <a href="@" class="blu col-4"> course 3 </a>
+                    <a href="@" class="blu col-4"> course 4 </a>
+                    <a href="@" class="blu col-4"> course 5 </a>
                   </div>
-                </form>
+                </div>
+                <div id="counselling-div" class="container d-none">
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="career-path" class="form-label"
+                        >Search the Career Path</label
+                      >
+                      <select name="career-path" id="career-path" class="form-control">
+                        <option value="">Search the Career Path</option>
+                        <option value="india">lorem</option>
+                        <option value="pakistan">Ipsem</option>
+                        <option value="nepal">is</option>
+                        <option value="bhutan">a mock</option>
+                        <option value="bangladesh">text</option>
+                      </select>
+                    </div>
+                    <div class="d-grid col-12">
+                      <button
+                        type="button"
+                        id="btn-hero-search"
+                        class="btn grn"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </form>
+                  <div class="row mt-3">
+                    <h5>Treanding Courses</h5>
+                    <a href="@" class="blu col-4"> course 1 </a>
+                    <a href="@" class="blu col-4"> course 2 </a>
+                    <a href="@" class="blu col-4"> course 3 </a>
+                    <a href="@" class="blu col-4"> course 4 </a>
+                    <a href="@" class="blu col-4"> course 5 </a>
+                  </div>
+                </div>
 
                 <!-- <form action="" class="">
                   <div class="d-flex">
@@ -749,13 +871,13 @@
         </p>
         <div class="d-flex justify-content-between my-5">
           <button class="btn-ins-selector selected">Kids coding</button>
-          <button class="btn-ins-selector ">Class X</button>
-          <button class="btn-ins-selector ">Class XII</button>
-          <button class="btn-ins-selector ">Engineering</button>
-          <button class="btn-ins-selector ">Medical</button>
-          <button class="btn-ins-selector ">Management</button>
-          <button class="btn-ins-selector ">UPSC</button>
-          <button class="btn-ins-selector ">App Development</button>
+          <button class="btn-ins-selector">Class X</button>
+          <button class="btn-ins-selector">Class XII</button>
+          <button class="btn-ins-selector">Engineering</button>
+          <button class="btn-ins-selector">Medical</button>
+          <button class="btn-ins-selector">Management</button>
+          <button class="btn-ins-selector">UPSC</button>
+          <button class="btn-ins-selector">App Development</button>
         </div>
         <div
           id="instructors-btn-carousel"
@@ -1133,7 +1255,6 @@
       <div class="text-center mt-5">
         <p class="font-32">Find Educators by City</p>
         <p class="subtitle pb-3 mb-5">Find the best tutor by city</p>
-
       </div>
       <div id="city-carousel" class="owl-carousel owl-theme mb-3">
         <div class="item">

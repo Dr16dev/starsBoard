@@ -298,11 +298,11 @@
               <div id="hero-search-form" class="p-3">
                 <form class="row g-3">
                   <div class="col-md-12">
-                    <input type="radio" name="type-of-exam" id="class">
+                    <input type="radio" name="type-of-exam" id="class" />
                     <label for="class">Class</label>
-                    <input type="radio" name="type-of-exam" id="board">
+                    <input type="radio" name="type-of-exam" id="board" />
                     <label for="board">Board</label>
-                    <input type="radio" name="type-of-exam" id="exam">
+                    <input type="radio" name="type-of-exam" id="exam" />
                     <label for="exam">Exam</label>
                   </div>
                   <div class="col-md-6">
@@ -324,16 +324,10 @@
                     <input type="text" class="form-control" id="inputFee" />
                   </div>
                   <div class="col-md-6">
-                    <label for="inputSubject" class="form-label"
-                      >Subject</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="inputSubject"
-                    />
+                    <label for="inputSubject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="inputSubject" />
                   </div>
-                  
+
                   <div class="d-grid col-12">
                     <button type="button" class="btn btn-outline-danger">
                       Search
@@ -634,7 +628,7 @@
         <p class="ribbon py-2">You can crack any EXAM</p>
         <p class="mt-5">Find best Tutor by course</p>
       </div>
-      <div class="owl-carousel owl-theme mb-3">
+      <div id="exams-carousel" class="owl-carousel owl-theme mb-3">
         <div class="item">
           <div class="card iconSlider mx-auto">
             <div class="iconContainer">
@@ -769,7 +763,7 @@
 
       <div id="instructors" class="container mt-5 pb-5">
         <p class="font-32 text-center mt-3">Most popular Instructors in</p>
-        <div class="d-flex justify-content-between my-5">
+        <div class="d-none d-md-flex justify-content-between my-5">
           <button class="btn btn-neu">Kids coding</button>
           <button class="btn btn-neu">Class X</button>
           <button class="btn btn-neu">Class XII</button>
@@ -778,6 +772,32 @@
           <button class="btn btn-neu">Management</button>
           <button class="btn btn-neu">UPSC</button>
           <button class="btn btn-neu">App Development</button>
+        </div>
+        <div id="instructors-btn-carousel" class="d-md-none owl-carousel owl-theme mb-3">
+          <div class="item">
+            <button class="btn btn-neu">Kids coding</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">Class X</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">Class XII</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">Engineering</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">Medical</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">Management</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">UPSC</button>
+          </div>
+          <div class="item">
+            <button class="btn btn-neu">App Devp</button>
+          </div>
         </div>
         <div class="wrapper d-flex justify-content-between">
           <div class="card" style="width: 18%">

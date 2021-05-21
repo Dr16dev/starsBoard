@@ -5,7 +5,7 @@ var carousel = new bootstrap.Carousel(carouselHeader, {
   touch: true,
 });
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $("#exams-carousel").owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
@@ -21,6 +21,23 @@ $(document).ready(function () {
       },
       1000: {
         items: 6,
+      },
+    },
+  });
+
+  $("#instructors-btn-carousel").owlCarousel({
+    nav: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 7,
       },
     },
   });

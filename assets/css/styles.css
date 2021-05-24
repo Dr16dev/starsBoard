@@ -336,7 +336,6 @@ li:hover {
 }
 #testimony-carousel {
   position: relative;
-  height: fit-content;
 }
 .testimony-carousel-img {
   border-radius: 15px;
@@ -504,6 +503,9 @@ footer {
   }
   .font-32 {
     font-size: 20px !important;
+  }
+  .font-large {
+    font-size: 12px;
   }
   #hero {
     height: fit-content;

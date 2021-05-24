@@ -4,6 +4,10 @@ body {
   background-color: #e6e7ee;
   font-family: "Poppins", sans-serif;
 }
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 ul {
   padding-inline-start: 0px !important;
 }

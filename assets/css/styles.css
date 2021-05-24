@@ -539,6 +539,12 @@ footer {
     max-height: 40vh;
     overflow-y: scroll;
   }
+  #testimony-carousel {
+    height: 60vh;
+  }
+  .testimony-carousel-img {
+    width: 65%;
+  }
 }
 @media screen and (max-width: 1100px) {
   body {

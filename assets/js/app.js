@@ -1,9 +1,3 @@
-var carouselHeader = document.querySelector("#carouselHeader");
-var carousel = new bootstrap.Carousel(carouselHeader, {
-  interval: 2000,
-  wrap: true,
-  touch: true,
-});
 
 $(document).ready(function () {
   $("#stars-carousel").owlCarousel({

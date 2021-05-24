@@ -194,12 +194,19 @@ li:hover {
   color: #5b5c5d;
 }
 #hero {
+  position: relative;
   height: 85vh;
-  background-image: url("../imgs/banners/banner_crop.jpg");
+  /* background-image: url("../imgs/banners/banner_crop.jpg");
   background-position-y: bottom;
   background-position-x: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+#hero-carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 #hero-search {
   position: relative;

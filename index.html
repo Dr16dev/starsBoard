@@ -290,13 +290,13 @@
             </div>
             <div class="row">
               <div id="hero-search-bar" class="px-0">
-                <div id="academics-btn" class="btn blu">Academics</div>
+                <div id="academics-btn" class="btn ylo">Academics</div>
                 <div id="professional-btn" class="btn">Professional</div>
                 <div id="hobby-btn" class="btn">Hobby Course</div>
                 <div id="counselling-btn" class="btn">Counselling</div>
               </div>
               <div id="hero-search-form" class="p-3">
-                <div id="academics-div" class="container">
+                <div id="academics-div" class="">
                   <form class="row g-3">
                     <div class="col-md-12">
                       <input type="radio" name="type-of-exam" id="class" />
@@ -344,60 +344,57 @@
                       <button
                         type="button"
                         id="btn-hero-search"
-                        class="btn grn"
+                        class="btn ylo"
                       >
                         Search
                       </button>
                     </div>
                   </form>
                 </div>
-                <div id="professional-div" class="container d-none">
+                <div id="professional-div" class="d-none">
                   <form class="row g-3">
-                    <div class="col-md-6">
-                      <input
-                        type="text"
+                    <div class="col-md-12">
+                      <select
+                        name="hobby-course"
+                        id="hobby-course"
                         class="form-control"
-                        id="inputCity"
-                        placeholder="City"
-                      />
+                      >
+                        <option value="">What do you want to learn ?</option>
+                        <option value="india">3D + Animation</option>
+                        <option value="pakistan">Graphics Designing</option>
+                        <option value="nepal">Logo Design</option>
+                        <option value="bhutan">Digital Marketing</option>
+                        <option value="bangladesh">Kids Coding</option>
+                      </select>
                     </div>
-                    <div class="col-md-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="inputLanguage"
-                        placeholder="Language"
-                      />
-                    </div>
-                    <div class="col-md-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="inputFee"
-                        placeholder="Fee"
-                      />
-                    </div>
-                    <div class="col-md-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="inputSubject"
-                        placeholder="Subject"
-                      />
-                    </div>
-
                     <div class="d-grid col-12">
                       <button
                         type="button"
                         id="btn-hero-search"
-                        class="btn grn"
+                        class="btn ylo"
                       >
                         Search
                       </button>
                     </div>
                   </form>
+                  <div class="row mt-3">
+                    <h5>Treanding Courses</h5>
+                    <a href="@" class="blu col text-center"> Kids Coding </a>
+                    <a href="@" class="blu col text-center seperator">
+                      Web Development
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      App Development
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      UI / UX
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      Digital Marketing
+                    </a>
+                  </div>
                 </div>
-                <div id="hobby-div" class="container d-none">
+                <div id="hobby-div" class="d-none">
                   <form class="row g-3">
                     <div class="col-md-12">
                       <select
@@ -417,7 +414,7 @@
                       <button
                         type="button"
                         id="btn-hero-search"
-                        class="btn grn"
+                        class="btn ylo"
                       >
                         Search
                       </button>
@@ -426,13 +423,21 @@
                   <div class="row mt-3">
                     <h5>Treanding Courses</h5>
                     <a href="@" class="blu col text-center"> course 1 </a>
-                    <a href="@" class="blu col text-center seperator"> course 2 </a>
-                    <a href="@" class="blu col text-center seperator"> course 3 </a>
-                    <a href="@" class="blu col text-center seperator"> course 4 </a>
-                    <a href="@" class="blu col text-center seperator"> course 5 </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 2
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 3
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 4
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 5
+                    </a>
                   </div>
                 </div>
-                <div id="counselling-div" class="container d-none">
+                <div id="counselling-div" class="d-none">
                   <form class="row g-3">
                     <div class="col-md-12">
                       <select
@@ -452,7 +457,7 @@
                       <button
                         type="button"
                         id="btn-hero-search"
-                        class="btn grn"
+                        class="btn ylo"
                       >
                         Search
                       </button>
@@ -461,10 +466,18 @@
                   <div class="row mt-3">
                     <h5>Treanding Courses</h5>
                     <a href="@" class="blu col text-center"> course 1 </a>
-                    <a href="@" class="blu col text-center seperator"> course 2 </a>
-                    <a href="@" class="blu col text-center seperator"> course 3 </a>
-                    <a href="@" class="blu col text-center seperator"> course 4 </a>
-                    <a href="@" class="blu col text-center seperator"> course 5 </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 2
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 3
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 4
+                    </a>
+                    <a href="@" class="blu col text-center seperator">
+                      course 5
+                    </a>
                   </div>
                 </div>
 
@@ -1160,8 +1173,8 @@
         </div>
       </div>
 
-      <div id="professions" class="mt-5 text-center">
-        <p class="font-32">Top Professional Courses</p>
+      <div id="professions" class="mt-5 pt-5 text-center">
+        <p class="font-32 mt-5">Top Professional Courses</p>
         <p class="subtitle pb-3">Find the best tutor by course</p>
         <div id="professions-carousel" class="owl-carousel owl-theme mb-3">
           <div class="item">
@@ -1478,33 +1491,33 @@
       <div id="stats" class="container mt-5 p-4">
         <div class="row">
           <div class="col-9">
-            <p class="display-7 ylo">Find flexible, affordable options</p>
-            <p class="display-5">
+            <div class="display-7 ylo">Find flexible, affordable options</div>
+            <div class="font-32">
               60+ million people are already learning on MasterClass
-            </p>
+            </div>
           </div>
-          <div class="row my-5">
+          <div class="row my-3">
             <div class="col d-flex justify-content-center align-items-center">
               <div class="stats-card">
                 <div>
-                  <p class="stats-card-heading blu">120k</p>
-                  <p class="font-small">Instructors</p>
+                  <div class="stats-card-heading blu">120k</div>
+                  <div class="">Instructors</div>
                 </div>
               </div>
             </div>
             <div class="col d-flex justify-content-center align-items-center">
               <div class="stats-card">
                 <div>
-                  <p class="stats-card-heading ylo">580k</p>
-                  <p class="font-small">Courses</p>
+                  <div class="stats-card-heading ylo">580k</div>
+                  <div class="">Courses</div>
                 </div>
               </div>
             </div>
             <div class="col d-flex justify-content-center align-items-center">
               <div class="stats-card">
                 <div>
-                  <p class="stats-card-heading grn">100%</p>
-                  <p class="font-small">Satisfaction Rate</p>
+                  <div class="stats-card-heading grn">100%</div>
+                  <div class="">Satisfaction Rate</div>
                 </div>
               </div>
             </div>
@@ -1608,16 +1621,6 @@
                 can interact, but we place an emphasis on India.
               </p>
               <ul class="d-flex list-unstyled mb-5 mb-lg-0">
-                <li class="mr-2">
-                  <button
-                    class="btn btn-icon-only btn-youtube"
-                    type="button"
-                    aria-label="youtube button"
-                    title="youtube button"
-                  >
-                    <span aria-hidden="true" class="fab fa-youtube"></span>
-                  </button>
-                </li>
                 <li class="mr-2">
                   <button
                     class="btn btn-icon-only btn-facebook"

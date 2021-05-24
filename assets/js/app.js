@@ -105,8 +105,8 @@ $(document).ready(function () {
 var slideIndex = 0;
 
 $("#hero-search-bar .btn").click(function () {
-  $("#hero-search-bar .btn").removeClass("blu");
-  $(this).addClass("blu");
+  $("#hero-search-bar .btn").removeClass("ylo");
+  $(this).addClass("ylo");
 });
 
 $("#academics-btn").click(function () {

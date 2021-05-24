@@ -158,6 +158,20 @@ a:hover {
 #educator-btn:hover #educator-option {
   display: block;
 }
+#counselling-option {
+  display: none;
+  height: 50vh;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 1;
+  line-height: 2em;
+  border-radius: 13px;
+  background: #e6e7ee;
+  box-shadow: 9px 9px 18px #a3a4a9, -9px -9px 18px #ffffff;
+}
+#counselling-nav-btn:hover #counselling-option {
+  display: block;
+}
 li {
   padding: 0.2rem 0.3rem;
 }

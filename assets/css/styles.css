@@ -165,14 +165,14 @@ li:hover {
   position: relative;
 }
 .subtitle::before {
- content: "";
- position: absolute;
- bottom: -3px;
- left: 50%;
- transform: translateX(-50%);
- width: 15vw;
- height: 0;
- border: 1px solid #ef8002;
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15vw;
+  height: 0;
+  border: 1px solid #ef8002;
 }
 .card {
   background-color: #e6e7ee !important;
@@ -544,6 +544,9 @@ footer {
   }
   .testimony-carousel-img {
     width: 65%;
+  }
+  footer {
+    padding-top: 10%;
   }
 }
 @media screen and (max-width: 1100px) {

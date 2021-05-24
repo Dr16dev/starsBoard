@@ -51,6 +51,9 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.mr-1 {
+  margin-right: 1%;
+}
 .educator-option-heading {
   margin-bottom: 1rem;
   font-weight: 400;
@@ -503,6 +506,7 @@ footer {
     border-radius: 15px;
     background: #e6e7ee;
     box-shadow: 8px 8px 16px #adadb3, -8px -8px 16px #ffffff;
+    height: 75vh;
   }
   #professions {
     max-height: 50vh;

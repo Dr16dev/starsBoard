@@ -509,4 +509,7 @@ footer {
   body {
     font-size: 0.75rem;
   }
+  .font-32 {
+    font-size: 24px;
+  }
 }

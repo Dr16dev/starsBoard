@@ -88,7 +88,7 @@ $(document).ready(function () {
     autoplay: true,
     responsive: {
       0: {
-        items: 2,
+        items: 3,
       },
       600: {
         items: 4,

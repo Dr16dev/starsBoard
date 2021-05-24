@@ -508,6 +508,20 @@ footer {
     max-height: 60vh;
     overflow-y: scroll;
   }
+  .stats-card {
+    width: 20vw;
+    height: 20vw;
+  }
+  .stats-card-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .display-7 {
+    font-size: 14px;
+  }
+  .font-32 {
+    font-size: 20px !important;
+  }
 }
 @media screen and (max-width: 1100px) {
   body {

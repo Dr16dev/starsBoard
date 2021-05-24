@@ -545,6 +545,10 @@ footer {
   .testimony-carousel-img {
     width: 65%;
   }
+  .testimony-carousel-disc {
+    top: 25%;
+    height: 50%;
+  }
   footer {
     padding-top: 10%;
   }

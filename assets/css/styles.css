@@ -594,6 +594,13 @@ footer {
   .font-32 {
     font-size: 24px;
   }
+  #hero {
+    height: fit-content;
+    margin-bottom: 10vh;
+  }
+  #hero-search {
+    height: 400px;
+  }
 }
 @media screen and (min-width: 1100px) {
   .container-fluid {
